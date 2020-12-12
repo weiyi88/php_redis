@@ -1,0 +1,9 @@
+<?php
+$db_config=[
+    'host'=>'127.0.0.1',
+    'username'=>'redis_aring88_xy',
+    'password'=>'tDDmjY4jbhtf2Ks5',
+    'database'=>'redis_aring88_xy',
+    'charset'=>'ust8',
+];
+?>
