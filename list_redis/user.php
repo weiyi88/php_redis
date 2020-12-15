@@ -18,7 +18,7 @@ for ($i=0;$i<100;$i++) {
 //$uid=$_GET['uid'];
 //获取redis里面已有的数量
     $num = 10;
-//如果当天人数少于10时候，则加入这个队列
+//如果当队列人数少于10时候，则加入这个队列
     if ($redis->lLen($redis_name) < 10) {
         $redis->rPush($redis_name, $uid . '%' . microtime());
         echo $uid . "秒杀成功";
